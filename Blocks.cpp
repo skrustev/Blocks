@@ -154,7 +154,7 @@ void writeValues(Block& x, int i)
 	file2.read((char*)&p, sizeof(p));
 	cout<<gn<<" "<<p;
 
-	file.close();
+	file2.close();
 
 }
 
